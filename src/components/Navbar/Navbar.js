@@ -18,13 +18,13 @@ const Navbar = () => {
       </button>
       <Nav className="mr-auto" navbar>
         <NavItem>
-          <NavLink href="/reactportfolio/">Home</NavLink>
+          <NavLink href="/reactportfolio">Home</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="/reactportfolio/portfolio">Portfolio</NavLink>
+          <NavLink href="portfolio">Portfolio</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="/reactportfolio/contact">Contact</NavLink>
+          <NavLink href="/contact">Contact</NavLink>
         </NavItem>
       </Nav>
     </div>
