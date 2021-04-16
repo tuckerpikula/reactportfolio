@@ -1,9 +1,7 @@
 import React from 'react';
 import {
-  Button, Form, FormGroup, Label, Input, FormText, Container, Row, Col, Card, CardHeader, CardFooter, CardBody,
-  CardTitle, CardText
+  Button, Form, FormGroup, Label, Input, Row, Col, Card, CardHeader
 } from 'reactstrap'
-import './Contact.css'
 
 const Contact = () => {
   return (

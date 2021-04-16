@@ -1,4 +1,4 @@
-import main from './main.jpg'
+import main from './main.png'
 
 const MainWebsite = () => {
   return (

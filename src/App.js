@@ -8,7 +8,6 @@ import Contact from './pages/Contact'
 import Portfolio from './pages/Portfolio'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-import './App.css'
 
 
 const App = () => {
