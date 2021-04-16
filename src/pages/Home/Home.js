@@ -4,64 +4,21 @@ import {
   CardTitle, CardSubtitle, Button
 } from 'reactstrap'
 import './Home.css'
+import desk from './desk.png'
 
 const Home = () => {
   return (
     <>
-      <main class="container pics">
-        <div class="row">
-          <div class="col-sm-6 m-0">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src=https://www.gardeningknowhow.com/wp-content/uploads/2020/03/home-office-plants.jpg
-                class="d-block w-100 aesthetics" alt="office">
-            </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 m-0">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img
-                    src=https://juniperoats.com/wp-content/uploads/2019/01/JuniperOats_blogposts-15-houseplants-for-minimalists.jpg
-                class="d-block w-100 space aesthetics" alt="plants">
-            </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12">
-          <p id="info">Hello, my name is Tucker Pikula. I am a former Division 1 athlete and I played volleyball for the
-          University of California, Irvine. I'm very excited to continue my education at UC Irvine and deepen my
-        knowledge in full-stack web development.</p>
-        </div>
-        <div class="row under">
-          <div class="col-sm-6">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src=https://www.tinostone.com/wp-content/uploads/2017/05/header-marbella-v.jpg
-                class="d-block w-100 aesthetics" alt="house">
-            </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src=https://cdn.suwalls.com/wallpapers/cars/porsche-977-turbo-35493-1920x1200.jpg
-                class="d-block w-100 space aesthetics" alt="car">
-            </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </main>
-
-      </>
+        <Card className="profileCard">
+          <CardBody>
+            <CardTitle tag="h1">Tucker Pikula</CardTitle>
+          </CardBody>
+            <img width="100%" src={desk} alt="Desk Image" id="desk"/>
+          <CardBody>
+          <CardText className="cardText">Hello my name is Tucker Pikula. I live in Fountain Valley California and I was a student athlete from the University of California, Irvine. I am pleased to say I am attending this bootcamp back at UCI in hopes of becoming a Full Stack Web Developer. Thank you for checking out my page!</CardText>
+          </CardBody>
+        </Card>
+    </>
   )
 }
 
